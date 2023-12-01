@@ -1,0 +1,47 @@
+/*공통 */
+*{padding: 0; margin: 0;}
+ul{list-style: none;}
+.space{clear: both;}
+.inner{width: 1400px; margin: 0 auto;}
+
+/* 헤더부분 */
+.header{width: 100%; height: 90px;}
+.header>.inner{height: 90px; margin: 0 auto; position: relative; line-height: 90px;}
+.menu{position: absolute; width: 600px; left: 0; right: 0; margin: 0 auto;}
+.menu>li{float: left; text-align: center; padding-left: 25px; padding-right: 26px;}
+.logo{width: 148px; height: 23px; float: left;}
+.top_banner{float: right; color: #1654a1;}
+.top_banner>li{float: left;}
+.one{width: 50px; height: 50px; background-color: #1654a1; color: #fff; border-radius: 50%; text-align: center; line-height: 50px; margin-top: 22px; margin-left: 5px; font-size: 11px;} 
+
+/* 메인이미지부분 */
+.mainimg{width: 100%; height: 746px; position: relative;}
+.main_bg{width: 100%; height: 514px; background-color: #1654a1; position: absolute; text-align: center;}
+.main_bg>img{width: 100%;}
+.main_img{width: 1319px; height: 514px; background-image: url(../img/mainmap.png);position: absolute; left: 0; right:0; margin: 0 auto; background-size: 100% 100%; top: 115px;}
+.prev{position: absolute; width: 32px; height: 60px; left: 0; top: 40%;}
+.next{position: absolute; width: 33px; height: 60px; right: 0; top: 40%;}
+
+/* 컨텐츠부분 */
+.box1{padding-top: 100px;}
+.list{width: 25%; float: left;}
+.list>h2{padding-bottom: 10px;}
+.list>p{padding-bottom: 30px; font-size: 13px; color: #666666;}
+.list>div{width: 327px; height: 169px; border: 3px solid #134e94; padding-top: 85px; text-align: center; color: #1654a1;}
+.list:nth-child(1)>div{border: 0; padding-top: 0;}
+.box2{width: 100%; height: 200px;
+border-top: 1px solid #e6e9f0; margin-top: 100px;}
+.box2>.inner>.box_icon{width: 53px; height: 50px; float: left;}
+.box_text>p>span{color: #1654a1; font-weight: bold; font-size: 18px;}
+.box_text{width: 600px; float: left; padding-top: 100px; }
+.box_text>.box_icon{float: left; padding-right: 10px;}
+.box_img{float: right; padding-top: 25px;}
+
+/* 푸터부분 */
+.footer{width: 100%; height: 100px; border-top: 1px solid #e6e6e6;}
+.footer_info{float: left; padding-top: 30px; font-size: 11px; color: #666666;}
+.footer_info>p>span{font-size: 13px; color: #1654a1; font-weight: bold;}
+.footer_btn{float: right; padding-top: 35px;}
+.footer_btn>li{float: left; width: 80px; height: 30px; border: 1px solid #1654a1; margin-left: 7px; text-align: center; line-height: 30px; color: #1654a1;}
+.footer_btn>li:nth-child(1){border: none;}
+.footer_btn>li>select{width: 80px; height: 32px; text-align: center; line-height: 32px;}

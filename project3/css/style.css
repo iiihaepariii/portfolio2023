@@ -1,0 +1,61 @@
+/* 공통 */
+*{padding: 0; margin: 0;}
+ul{list-style: none;}
+.space{clear: both;}
+body{overflow-x: hidden;}
+
+/* 헤더부분 */
+.logo{width: 100%; text-align: center; padding: 20px;}
+.menubar{width: 100%; height: 50px; line-height: 50px; background-color: #ec2029;}
+.menu{width: 1088px; margin: 0 auto; color: #fff; text-align: center;}
+.menu>li{float: left; width: calc(100%/5);}
+.menu>li>a{color: #fff; text-decoration: none;}
+
+/* 메인이미지부분 */
+.mainimg{width: 100%; height: 400px; background-image: url(../img/main_img.jpg); background-repeat: no-repeat; background-position: center center; background-size: cover;}
+
+/* 컨텐츠부분 */
+.inner{width: 1088px; margin: 0 auto; padding-top: 80px;}
+.inner>.box_set{padding-top: 30px;}
+.list>h3{padding-top: 5px; color: #b59d7b;}
+.list>p{padding-top: 5px; color: #7a7a7a; font-size: 12px;}
+.list{float: left; width: calc(100%/3 - 3%); margin: 0 2.25%;}
+.list>img{width: 100%;}
+.list:nth-child(1){margin-left: 0;}
+.list:nth-child(3){margin-right: 0;}
+.box2_img{width: 100%; padding-top: 30px;}
+.box2>.inner>h2{color: #b59d7b; font-size: 15px; text-align: center;}
+
+/* 푸터부분 */
+.footer{width: 100%; height: 270px;}
+.footer_bar{width: 100%; height: 30px; line-height: 30px; background-color: #ec2029; text-align: left; float: left; margin-top: 70px;}
+.footer_text{width: 1088px; margin: 0 auto; color: #fff; font-size: 12px;}
+.footer_text>li{float: left;}
+.copyright{font-size: 12px; float: left; padding-top: 40px; color: #7a7a7a}
+.copyright>span{color: #b59d7b; font-size: 14px; font-weight: bold;}
+
+/* sub1 */
+.sub_mainimg{width: 100%; height: 300px; background-image: url(../img/sub_img.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover;}
+
+/* sub1컨텐츠 */
+.sub_box1>.inner>h3{padding-top: 5px; color: #b59d7b; font-size: 15px; text-align: center; padding-bottom: 30px;}
+
+.sub_box1>.inner>ul>li{width: calc(100%/3 - 3%); height: 50px; background-color: #b59d7b; float: left; text-align: center; line-height: 50px; color: #fff; margin: 0 2.25% 1.5%;}
+.sub_box1>.inner>ul>li:nth-child(1), .sub_box1>.inner>ul>li:nth-child(4){margin-left: 0;}
+.sub_box1>.inner>ul>li:nth-child(3), .sub_box1>.inner>ul>li:nth-child(6){margin-right: 0;}
+
+.sub_box2{width: 100%;}
+.sub_box2>.inner{padding-top: 30px;}
+.sub_list>li{float: left; width: calc(100%/4 - 2%); margin: 0 1.333%; margin-bottom: 2%;}
+.sub_list>li:nth-child(1){margin-left: 0;}
+.sub_list>li:nth-child(4){margin-right: 0;}
+.sub_list>li:nth-child(5){margin-left: 0;}
+.sub_list>li:nth-child(8){margin-right: 0;}
+
+.number{width: 350px; height: 30px; position: relative; padding-top: 20px; left: 0; right: 0; margin: 0 auto;}
+.number>.num1{width: 30px; position: absolute; left: 0;}
+.number>.num2{width: 280px; position: absolute; left: 0; right:0; margin: 0 auto; top: 23px;}
+.number>.num3{width: 30px; position: absolute; right: 0; text-align: right;}
+
+.number>.num2>li{float: left; text-align: center; color: #7a7a7a; font-size: 12px;width: calc(100%/10);}
+.number>.num2>li>span{color: #ec2029; font-weight: bold;}
