@@ -1563,8 +1563,7 @@ figure.dotted-bg:before {
 
 /* 배너사이즈조정 */
 .testimonial-v1 .testimonial-inner-bg img {
-  width: 960px;
-  height: 210px;
+  width: 100%;
   margin: 0 auto;
 }
 
